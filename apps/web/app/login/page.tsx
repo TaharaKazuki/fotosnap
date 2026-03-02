@@ -20,7 +20,7 @@ export default function LoginPage() {
             </a>
           </p>
         </div>
-        <LoginForm />
+        <LoginForm onSubmit={async (data) => console.info(data)} />
       </div>
     </div>
   );

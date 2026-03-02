@@ -20,7 +20,7 @@ export default function SignupPage() {
             </a>
           </p>
         </div>
-        <SignupForm />
+        <SignupForm onSubmit={async (data) => console.info(data)} />
       </div>
     </div>
   );
