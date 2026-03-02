@@ -46,7 +46,6 @@ cd apps/web && pnpm dlx shadcn@latest add <component-name>
 - **Tailwind CSS v4** with CSS variables for theming in `apps/web/app/globals.css`
 - **Tailwind class sorting**: prettier-plugin-tailwindcss configured in `apps/web/prettier.config.js`
 - **`cn()` utility** (`apps/web/lib/utils.ts`): combines clsx + tailwind-merge for conditional/deduplicated class names
-- **Primary color**: coral theme (`oklch(0.674 0.178 22.7)`)
 
 ### Tech Stack
 
